@@ -1,0 +1,45 @@
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  z-index: 2;
+  background: #eee;
+  h3 {
+    width: 85px;
+    float: left;
+    font-family: times;
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+  &-img {
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+  }
+  .nav-bar{
+    float: right;
+    top: 0;
+    font-size: 1.2em;
+    ul{
+      display: inline-block;
+      list-style: none;
+      .nav-link{
+        float: left;
+        a{
+          text-decoration: none;
+          color: brown;
+          display: block;
+          padding: 0 30px 0 30px;
+        }
+        a:hover{
+          color: #1f6b1f;
+        }
+      }
+    }
+
+  }
+}
