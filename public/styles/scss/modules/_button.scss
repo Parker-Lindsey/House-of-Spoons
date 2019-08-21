@@ -1,0 +1,18 @@
+.btn{
+  background: lightgreen;
+  border: 1px solid black;
+  padding: 5px;
+  border: 1px solid #1f6b1f;
+  transition: background .75s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #1f6b1f;
+}
+
+#more-info {
+  padding: 7px 20px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
