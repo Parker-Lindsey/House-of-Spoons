@@ -3,6 +3,10 @@
   width: 50%;
   text-align: center;
 
+  @media (max-width: 1180px) {
+    width: calc((100%/3)*2);
+  }
+
   h2 {
     margin-top: 125px;
   }
@@ -59,6 +63,7 @@
       align-items: center;
       text-align: center;
       margin: 10px;
+      }
 
 
       .level {
@@ -83,5 +88,3 @@
 
     }
   }
-
-}
